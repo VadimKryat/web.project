@@ -1,0 +1,78 @@
+.navbar {
+	margin: 0 auto;
+	background-color: #F5F5F5;
+	border-bottom: 3px solid #AED581;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+.flex-m {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+.navbar ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar li, .navbar a {
+	-webkit-transition: width 1s;
+	-o-transition: width 1s;
+	transition: width 1s;
+	-webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.navbar li {
+	width: 100%;
+	float: left;
+}
+
+.navbar button {
+	width: 100%;
+}
+
+.navbar a, .dropbtn {
+	padding: 18px 20px;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+	color: #424242;
+}
+
+.dropbtn {
+	font-size: 17px;
+	padding-top: 19px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: inherit;
+}
+ 	
+.navbar li:hover, .dropdown-content a:hover {
+	background-color: #C5E1A5;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.navbar li:hover > .dropdown-content {
+	display: block;
+}
+
+.dropdown-content li {
+	float: none;
+}
+
+.dropdown-content a {
+	text-align: left;
+	background-color: #F5F5F5;
+}

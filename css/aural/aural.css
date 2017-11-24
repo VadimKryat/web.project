@@ -1,0 +1,19 @@
+@import url('text.css');
+@import url('header.css');
+@import url('table.css');
+@import url('text.css');
+
+body {
+	volume:soft;
+	pause:30ms 40ms;
+	cue: url(".../sound/hello.mp3");
+	play-during:url(".../sound/Sea/001.wav") repeat;
+	speech-rate:medium;
+	voice-family:announcer,female;
+	richness:75;
+}
+
+a {
+	volume:medium;
+	play-during:none;
+}

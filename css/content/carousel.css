@@ -1,0 +1,55 @@
+.carousel {
+  position: relative;
+  padding: 10px 60px;
+  background-color: #F5F5F5;
+  border: 2px solid #E1E1E1;
+  border-radius: 3px;
+}
+
+.arrow {
+  position: absolute;
+  top: 0px;
+  font-size: 30px;
+  line-height: 24px;
+  display: block;
+  background-color: transparent;
+  color: #424242;
+  border: none;
+  height: 100%;
+  width: 40px;
+  -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #E1E1E1;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px;
+}
+
+.gallery {
+  overflow: hidden;
+}
+
+.gallery ul {
+  width: 9999px;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 0.8s;
+  font-size: 0;
+}
+
+.gallery li {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}

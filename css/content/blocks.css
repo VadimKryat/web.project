@@ -1,0 +1,146 @@
+.pers-info-left {
+	float: left;
+	margin-left: 50px;
+}
+
+.pers-info-rigth {
+	float: right;
+	width: 200px;
+	margin: 40px 40px 50px 50px;
+}
+
+.pers-info-rigth .photo {
+	text-align: center;
+}
+
+.social-links {
+	text-align: center;
+}
+
+.social-links ul {
+	text-align: inherit;
+	padding: 0px;	
+}
+
+.social-links li {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.btn {
+	display: block;
+	background-color: #E0E0E0;
+	width: 120px;
+	padding: 10px 0px;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #BDBDBD;
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+	-ms-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+.g-btn {
+	background-color: #F44336;
+	border: 1px solid #D32F2F;
+	color: #ffffff;
+}
+
+.f-btn {
+	background-color: #0277BD;
+	border: 1px solid #01579B;
+	color: #ffffff;
+}
+
+.m-btn {
+	background-color: #4FC3F7;
+	border: 1px solid #29B6F6;
+	color: #ffffff
+}
+
+.list > ul > li {
+	background-color: #F5F5F5;
+	border: 2px solid #E1E1E1;
+	border-radius: 3px;
+	padding: 0px 20px 20px 20px;
+	margin: 10px 0px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.content p {
+	margin: 0px 0px 0px 20px;
+}
+
+.enum ul {
+	margin-left: 20px;
+}
+
+.enum li {
+	margin-bottom: 5px;
+}
+
+.enum li:before {
+	content: "- ";
+}
+
+.miniature {
+	float: left;
+	margin: 0px 20px 20px 0px;
+}
+
+.caption {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.wall .title-text {
+	margin: 10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	color: #424242;
+}
+
+.wall .time-box {
+	font-size: 13px;
+}
+
+.wall .time-box .date {
+	font-weight: bold;
+}
+
+.wall .time-box .time {
+	color: #424242;
+}
+
+.c-post {
+	margin-top: 30px;
+}
+
+#inp-topic, #inp-msg, #inp-email {
+	width: 100%;
+	line-height: 25px;
+	font-size: inherit;
+}
+
+.c-post .c-topic, .c-msg {
+	margin: 10px 0px;
+}

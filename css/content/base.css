@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #F5F5F5;
+}
+
+.wrapp {
+	margin: 0 auto;
+	padding: 16px;
+	margin-top: 50px;
+	width: 960px;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #1E88E5;
+}
+
+a:hover {
+	color: #64B5F6;
+}
+
+textarea {
+	resize: none;
+}

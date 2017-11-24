@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link media="aural" rel="stylesheet" href="../css/aural/aural.css">
+	<style type="text/css"></style>
+	
+</head>
+<body onload="init()">
+	<div id="body" >
+		<div class="navbar clearfix">
+			<ul class="flex-m">
+				<li><a href="index.html" target=self>Главная</a></li>
+				<li>
+					<button class="dropbtn">Общая информация</button>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="subjects.html" target=self>Любимые предметы</a></li>
+							<li><a href="programm-lang.html" target=self>Языки программирования</a></li>
+							<li><a href="comp-access.html" target=self>Доступ к компьютеру</a></li>
+							<li><a href="hobbies.html" target=self>Хобби</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="artific-int.html" target=self>Искусственный интеллект</a></li>
+				<li><a href="future.html" target=self>Планы на будущее</a></li>
+				<li><a id="blog" href="blog.html" target=self>Блог</a></li>
+			</ul>
+		</div>
+		<div class="wrapp clearfix">
+			<div class="title">
+				<h1 onclick="toggle()">Общие данные</h1>
+			</div>
+			<div id="pers" class="pers-info">
+				<div class="pers-info-left">
+					<table>
+						<tr>
+							<th>Имя:</th>
+							<td>Крят В. В.</td>
+						</tr>
+						<tr>
+							<th>Пол:</th>
+							<td>Мужской</td>
+						</tr>
+						<tr>
+							<th>Дата рождения:</th>
+							<td>5 марта 1998 г.</td>
+						</tr>
+						<tr>
+							<th>Место рождения:</th>
+							<td>Харьковская обл., г. Барвенково</td>
+						</tr>
+						<tr>
+							<th>Гражданство:</th>
+							<td>Украинское</td>
+						</tr>
+						<tr>
+							<th>Семейное положение:</th>
+							<td>Не женат</td>
+						</tr>
+						<tr>
+							<th>Адрес:</th>
+							<td>г. Харьков, ул. Маршала Жукова, д. 35</td>
+						</tr>
+						<tr>
+							<th>Телефон:</th>
+							<td>+38(050)333-55-88</td>
+						</tr>
+						<tr>	
+							<th>Контакты:</th>
+							<td>vadym.kriat@nure.ua</td>
+						</tr>
+					</table>
+				</div>
+				<div class="pers-info-rigth">
+					<div class="photo">
+						<img src="../img/my_photo.jpg" alt="My photo">
+					</div>
+					<div class="social-links">
+						<p>Я в социальных сетях:</p>
+						<ul>
+							<li><a id="myBtn" class="btn g-btn" href="#">Google+</a></li>
+							<li><a class="btn f-btn" href="#">Facebook</a></li>
+							<li><a class="btn m-btn" href="#">Microsoft</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../scripts/script.js"></script>
+</body>
+</html>

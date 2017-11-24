@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Блог</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body onload="init()">
+	<div id="body">
+		<div class="navbar clearfix">
+			<ul class="flex-m">
+				<li><a href="index.html">Главная</a></li>
+				<li>
+					<button class="dropbtn">Общая информация</button>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="subjects.html">Любимые предметы</a></li>
+							<li><a href="programm-lang.html">Языки программирования</a></li>
+							<li><a href="comp-access.html">Доступ к компьютеру</a></li>
+							<li><a href="hobbies.html">Хобби</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="artific-int.html">Искусственный интеллект</a></li>
+				<li><a href="future.html">Планы на будущее</a></li>
+				<li><a href="blog.html">Блог</a></li>
+			</ul>
+		</div>
+		<div class="wrapp">
+			<div class="title">
+				<h1>Блог</h1>
+			</div>
+			<div class="wall">
+				<ul>
+					<li>
+						<span class="title-text">Тема 1</span>
+						<div class="time-box">
+							<span class="date">11.05.2015</span>
+							<span class="time">15:07</span>
+						</div>
+						<p>Является знаменитый lorem латыни и по. Известным рыбным текстом является знаменитый lorem такого текста сыграет на основе. Как цель применения такого текста исключительно демонстрационная, то. Средневековый книгопечатник вырвал отдельные фразы. Набор слов. известным рыбным текстом является знаменитый lorem ipsum.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="c-post">
+				<form action="#" onsubmit="return validate()" name="inputForm">
+					<div class="email">
+						<label for="inp-topic">E-mail:</label>
+						<br>
+						<input id="inp-email" type="text" name="email">
+					</div>
+					<div class="c-topic">
+						<label for="inp-topic">Тема:</label>
+						<br>
+						<input id="inp-topic" type="text" name="topic">
+					</div>
+					<div class="c-msg">
+						<label for="inp-msg">Сообщение:</label>
+						<br>
+						<textarea id="inp-msg" name="message" rows="5"></textarea>
+					</div>
+					<input class="btn send" type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="../scripts/script.js"></script>
+</body>
+</html>

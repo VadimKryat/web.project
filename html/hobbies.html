@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Хобби</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body onload="init()">
+	<div id="body">
+		<div class="navbar clearfix">
+			<ul class="flex-m">
+				<li><a href="index.html">Главная</a></li>
+				<li>
+					<button class="dropbtn">Общая информация</button>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="subjects.html">Любимые предметы</a></li>
+							<li><a href="programm-lang.html">Языки программирования</a></li>
+							<li><a href="comp-access.html">Доступ к компьютеру</a></li>
+							<li><a href="hobbies.html">Хобби</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="artific-int.html">Искусственный интеллект</a></li>
+				<li><a href="future.html">Планы на будущее</a></li>
+				<li><a href="blog.html">Блог</a></li>
+			</ul>
+		</div>
+		<div class="wrapp clearfix">
+			<div class="modal" id="myModal">
+				<span class="close" onclick="closes()">&times;</span>
+				<img class="modal-content" id="img">
+			</div>
+			<div class="title">
+				<h1>Мои хобби</h1>
+			</div>
+			<div class="list">
+				<ul>
+					<li>
+						<h2>Велотуризм</h2>
+						<img onclick="showImg(src)" class="full-img myImg" src="../img/hobbies/bicycle.jpg" alt="Bicycle tourism photo">
+						<p>
+							Велосипедный туризм — один из видов туризма, в котором велосипед служит главным или единственным средством передвижения. Велотуризм и относится как к одному из видов активного отдыха, так и к разновидности спортивного туризма.
+						</p>
+						<p>
+							Велотуризм как активный отдых заключается в прохождении на велосипеде маршрутов, содержащих общетуристические и специфические для велотуризма объекты экскурсионного характера. Сложность таких походов может колебаться от простой до крайне высокой, маршруты прокладываются так, чтобы использовать преимущества, которые дает велосипед для быстрого передвижения по маршруту.</p>
+						</li>
+						<li>
+							<h2>Обработка изображений</h2>
+							<img onclick="showImg(src)" class="full-img myImg" src="../img/hobbies/image.jpg" alt="Picture of processed photo">
+							<p>Обработка изображений — любая форма обработки информации, для которой входные данные представлены изображением, например, фотографиями. В обработку изображений обычно входит:
+							</p>
+							<div class="enum">
+								<ul>
+									<li>Геометрические преобразования, такие как вращение и масштабирование;</li>
+									<li>Цветовая коррекция: изменение яркости и контраста и т.д.;</li>
+									<li>Комбинирование изображений различными способами;</li>
+									<li>Разделение изображения на области;</li>
+									<li>Редактирование и ретуширование.</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<h2>3D Моделирование</h2>
+							<img onclick="showImg(src)" class="full-img myImg" src="../img/hobbies/lake.jpg" alt="Picture of 3D model">
+							<p>3D-моделирование — это процесс создания трёхмерной модели объекта. Задача 3D-моделирования — разработать визуальный объёмный образ желаемого объекта. При этом модель может как соответствовать объектам из реального мира, так и быть полностью абстрактной. Графическое изображение трёхмерных объектов отличается тем, что включает построение геометрической проекции трёхмерной модели сцены на плоскость с помощью специализированных программ. </p>
+						</li>
+						<li>
+							<h2>Программирование</h2>
+							<img onclick="showImg(src)" class="full-img myImg" src="../img/hobbies/code.jpg" alt="Picture of code">
+							<p>Программирование — процесс создания компьютерных программ. В более широком смысле под программированием понимают весь спектр деятельности, связанный с созданием и поддержанием в рабочем состоянии программ — программного обеспечения. В разработку ПО входят анализ и постановка задачи, проектирование программы, построение алгоритмов, разработка структур данных, написание текстов программ, отладка и тестирование программы, документирование, настройка, доработка и сопровождение.</p>
+						</li>
+					</ul>
+				</div>
+				<div id="carousel" class="carousel">
+					<button class="arrow prev"><</button>
+					<div class="gallery">
+						<ul class="images">
+							<li>
+								<img onclick="showImg(src)" class="carusel-img" src="../img/hobbies/bicycle.jpg" alt="Picture of code">
+							</li>
+							<li>
+								<img onclick="showImg(src)" class="carusel-img" src="../img/hobbies/image.jpg" alt="Picture of code">
+							</li>
+							<li>
+								<img onclick="showImg(src)" class="carusel-img" src="../img/hobbies/lake.jpg" alt="Picture of code">
+							</li>
+							<li>
+								<img onclick="showImg(src)" class="carusel-img" src="../img/hobbies/code.jpg" alt="Picture of code">
+							</li>
+						</ul>
+					</div>
+					<button class="arrow next">></button>
+				</div>
+			</div>
+	</div>
+		<script type="text/javascript" src="../scripts/script.js"></script>
+	</body>
+	</html>
